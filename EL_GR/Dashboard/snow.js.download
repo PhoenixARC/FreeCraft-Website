@@ -1,0 +1,67 @@
+<!DOCTYPE html PUBLIC "-//WAPFORUM//DTD XHTML Mobile 1.0//EN" "http://www.wapforum.org/DTD/xhtml-mobile10.dtd"><html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>
+Login  - FreeCraft RTM</title>
+<link rel="shortcut icon" type="image/png" href="img/main/ico-2.png">
+<link rel="icon" type="image/png" href="img/main/ico-2.png">
+<link rel="stylesheet" href="LoginCSS/css/fonts.css">
+<link rel="stylesheet" href="LoginCSS/style.css">
+<meta name="description" content="
+Login">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+<meta charset="utf-8">
+<script type="text/javascript" src="LoginCSS/libs/Jquery/jquery.js">
+</script>
+<script type="text/javascript" src="LoginCSS/js/functions.js">
+</script> 
+<script type="text/javascript" src="LoginCSS/libs/Form/form.js">
+</script>
+<script src='https://www.google.com/recaptcha/api.js'>
+</script>
+</head>
+<body>
+<div id="preloader">
+<div id="status">&nbsp;</div>
+</div>
+<div class="container">
+<div class="content-block">
+<div class="services">
+<div class="s-content">
+<a href="register">
+<div class="item">Register</div>
+</a><a href="forgot">
+<div class="item">Forgot Password</div>
+</a></div>
+</div><div class="table"><div class="content"><div class="icon-box"><div class="logo"></div>
+</div>
+<div class="login-box form-box">
+<div id="error">
+</div>
+<form method="post" id="login-form" action="../core/action/action.php?to=login">
+<input type="email" placeholder="Email" name="email" id="email" class="item input">
+<input type="password" placeholder="Password" name="password" id="password" class="item input">
+<button class="item submit-button">Login</button>
+<div id="login-res"></div>
+<b>
+<br>
+<h2><center> FreeCraft © 2018 - 2020 Made By PhoenixARC </h2></center>
+</b>
+</form>
+</div>
+</div>
+</div>
+</div>
+</div>
+<script type="text/javascript" src="LoginCSS/js/login.js"></script>
+  <script>$(window).load(function(){$("#status").fadeOut(2000);$("#preloader").delay(2000).fadeOut("slow");$("body").delay(1500).css({overflow:"visible"})});</script>
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-101988476-1', 'auto');
+  ga('send', 'pageview');
+
+</script>  </body>
+  </html>
