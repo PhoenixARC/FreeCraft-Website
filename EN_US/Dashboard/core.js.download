@@ -788,5 +788,3 @@ jQuery(document).ready(function($) {
 	});
 	
 });
-
-dEventListener){w.addEventListener('load',e2ff,false)}else{w.attachEvent('onload',e2ff)}})(window);
