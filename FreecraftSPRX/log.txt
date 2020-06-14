@@ -1,0 +1,25 @@
+
+ NOTIFY     Connected to PC
+ NOTIFY     Attached
+ GETBYTES     805350372     40
+ GETBYTES     805350372     40
+ NOTIFY     Connected to PC
+ NOTIFY     Attached
+ GETBYTES     805350372     40
+ GETBYTES     805350372     40
+ NOTIFY     Connected to PC
+ NOTIFY     Attached
+ GETBYTES     805350372     40
+ GETBYTES     805350372     40
+ NOTIFY     Connected to PC
+ NOTIFY     Attached
+ GETBYTES     805350372     40
+ GETBYTES     805350372     40
+ NOTIFY     Connected to PC
+ NOTIFY     Attached
+ GETBYTES     805350372     40
+ GETBYTES     805350372     40
+ NOTIFY     Connected to PC
+ NOTIFY     Attached
+ GETBYTES     805350372     40
+ GETBYTES     805350372     40
