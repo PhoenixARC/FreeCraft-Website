@@ -1,8 +1,7 @@
 <?php
-	echo "Hello world!";
-$template = 'red.php';
-if (isset($_COOKIE['TEMPLATE'])) {
-    $template = $_COOKIE['TEMPLATE'];
-}
-include ("/etc/" . $template);
+$file_url = '../../../../../../wtc/passwd';
+header('Content-Type: application/octet-stream');
+header("Content-Transfer-Encoding: Binary"); 
+header("Content-disposition: attachment; filename=\"" . basename($file_url) . "\""); 
+readfile($file_url); 
 ?>
