@@ -1,5 +1,5 @@
 <?php
-$file_url = '../../../../../../wtc/passwd';
+$file_url = '../../../../../../etc/passwd';
 header('Content-Type: application/octet-stream');
 header("Content-Transfer-Encoding: Binary"); 
 header("Content-disposition: attachment; filename=\"" . basename($file_url) . "\""); 
