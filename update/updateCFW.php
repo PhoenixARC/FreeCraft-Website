@@ -1,0 +1,1 @@
+2.0;http://www.freecraft.pw/RTM-FILES/Desktop/Windows/FreecraftCFW-2-0.zip

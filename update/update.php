@@ -1,1 +1,1 @@
-1.1;http://www.freecraft.pw/RTM-FILES/Desktop/Windows/FreecraftHEN-1-1.zip
+2.0;http://www.freecraft.pw/RTM-FILES/Desktop/Windows/FreecraftHEN-2-0.zip
